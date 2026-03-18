@@ -227,14 +227,14 @@ margin-top:10px;
 max-height:100px;
 }
 
-/* Reduce Projects Section Height Only */
+
 
 #projects{
 min-height:auto;
 padding:100px 40px;
 }
 
-/* Hexagon Outside Profile Image */
+
 
 .home-img{
 position:relative;
@@ -260,14 +260,13 @@ opacity:0.6;
 animation:float 4s ease-in-out infinite;
 }
 
-/* Increase distance of green arrow below Projects heading */
+
 
 #projects .scroll-down{
 margin-top:40px;
 }
 
 
-/* ================= MOBILE RESPONSIVE FIX ================= */
 
 @media (max-width: 768px){
 
@@ -295,11 +294,11 @@ margin-top:40px;
 }
 
 .home-img{
-    margin-top:40px; /* FIX ADDED */
+    margin-top:40px; 
 }
 
 .btn{
-    margin-bottom:20px; /* FIX ADDED */
+    margin-bottom:20px; 
 }
 
 .home-img img{
