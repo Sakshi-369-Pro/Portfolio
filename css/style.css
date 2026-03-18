@@ -265,3 +265,80 @@ animation:float 4s ease-in-out infinite;
 #projects .scroll-down{
 margin-top:40px;
 }
+
+
+/* ================= MOBILE RESPONSIVE FIX ================= */
+
+@media (max-width: 768px){
+
+.header{
+    padding:15px 20px;
+}
+
+.navbar{
+    display:none;
+}
+
+.home{
+    flex-direction:column;
+    text-align:center;
+    height:auto;
+    padding:120px 20px 40px;
+}
+
+.home-content h1{
+    font-size:32px;
+}
+
+.home-content h3{
+    font-size:18px;
+}
+
+.home-img{
+    margin-top:40px; /* FIX ADDED */
+}
+
+.btn{
+    margin-bottom:20px; /* FIX ADDED */
+}
+
+.home-img img{
+    width:250px;
+    height:250px;
+    margin-top:20px;
+}
+
+.home-img::before{
+    width:300px;
+    height:300px;
+}
+
+.section{
+    padding:100px 20px;
+}
+
+.section h2{
+    font-size:28px;
+}
+
+.skill-card{
+    width:100%;
+    font-size:16px;
+}
+
+.skills-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.projects-container{
+    gap:20px;
+}
+
+.project-card{
+    min-width:200px;
+    height:auto;
+    padding:20px;
+}
+
+}
