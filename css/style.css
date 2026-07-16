@@ -331,3 +331,95 @@ body {
     height: 280px;
   }
 }
+
+/* CERTIFICATES */
+
+.certificate-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.certificate-card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px #06b6d4;
+    transition: 0.4s;
+}
+
+.certificate-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 35px #06b6d4;
+}
+
+.certificate-card h3{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.certificate-card img{
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: white;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .certificate-container{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* CONTACT */
+
+.contact-container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.contact-form{
+    width:100%;
+    max-width:700px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:16px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:rgba(255,255,255,0.08);
+    color:white;
+    font-size:16px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 10px rgba(6,182,212,.3);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color:#cbd5e1;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form .btn{
+    width:220px;
+    align-self:center;
+}
